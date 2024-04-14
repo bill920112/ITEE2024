@@ -1,0 +1,9 @@
+# B. 進階半導體技術與應用 (Advanced Semiconductor Technologies and Applications)
+
+## a. 先進封裝技術: 3D IC、SoC、SiP的介紹與應用。
+
+3D IC 技術簡介
+要了解三維技術必須從各分工階段面來討論：三維結構在設計上主要包含矽穿透孔(Through Si Via; TSV)製程的整合在內，與SiP (System in Package)、SoC (System on Chip)系統做區別。三維結構在設計上主要可分為Via First and Via Last Processing。若由製程與應用角度來看，又可區分為同質整合(3D Homogeneous Integration)與異質整合(3D Heterogeneous Integration)兩種：：同質整合重點在於效能的放大，而異質整合則是將開啟不同特性之元件整合於單一系統的可能。
+3D IC 設計/ 構裝
+首先由美國賓州州立大學資訊工程學系的Professor Yuan Xie以3D IC Design/Architecture 為議題，內容由目前IC Designer所面臨的設計問題導入，包含Wire Delay、產品Variability 、Power 問題與Reliability。Professor 並指出3D IC Design的研究由Circuit Design、EDA for Design Automation到Micro-Architecture。接著討論元件所面臨的問題與需求端（產品輕薄微小化、高速(Speed Up)、低功率、高可靠度與低成本等目標）導入，探討元件縮小化需求在Wire Material 的選擇與Scale下降後， Resistance變化所造成Signal Delay 的影響。
+接著Professor Yuan Xie對3D Integration技術趨勢與簡介進行討論，包含Via First、Via Last、Wafer to Wafer、Die to Wafer 和Simulation 分析等。Interconnects 會是結構微小化後功率提升與能量消耗的關鍵。最後，最新的Design/Architecture 設計在於SRAM & DRAM & MRAM 的比較，最重要的會是取代材料物理的特性； 而3D IC Stacking MRAM 技術會是其優勢(Leakage Power: MRAM consumes only 11% and 30% of total power, comparing to SRAM and DRAM respectively)。此外，除了技術的發展外，Processor 還著重在討論產品化的關鍵仍需配合Tools Development and 2D/3D Cost Down Issues 。為了實現3D Integration 的新設計方式， EDA 也必須更新（如圖七，EDA 設計工具可利用垂直通道形成三維積體電路，並將目前實施的各種微處理器組件利用3D技術整合）、封測方式也要改變，所以3D IC Integration 所帶來的將是整體半導體產業的新紀元。
